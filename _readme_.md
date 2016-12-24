@@ -2,8 +2,13 @@
 
 This example demonstrates how the `ol` package can be used with Rollup.
 
+Clone the project.
+
+    git clone git clone git@gist.github.com:8beb328ea72b36446fc2198d008287de.git ol-rollup
+
 Install the project dependencies.
 
+    cd ol-rollup
     npm install
 
 Create a bundle for the browser.
@@ -11,3 +16,5 @@ Create a bundle for the browser.
     npm run build
 
 Open `index.html` to see the result.
+
+    open index.html
