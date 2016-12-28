@@ -1,6 +1,6 @@
 # OpenLayers + Rollup
 
-This example demonstrates how the `ol` package can be used with Rollup.
+This example demonstrates how the [`ol` package](https://www.npmjs.com/package/ol) can be used with Rollup.
 
 Clone the project.
 
