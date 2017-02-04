@@ -12,6 +12,6 @@
     "rollup-plugin-uglify": "^1.0.1"
   },
   "dependencies": {
-    "ol": "^3.21.0-beta.14"
+    "ol": "^3.21.0-beta.17"
   }
 }
