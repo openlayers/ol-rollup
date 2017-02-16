@@ -6,12 +6,12 @@
     "build": "rollup --config rollup.config.js"
   },
   "devDependencies": {
-    "rollup": "^0.38.0",
-    "rollup-plugin-commonjs": "^6.0.1",
+    "rollup": "^0.41.4",
+    "rollup-plugin-commonjs": "^7.0.0",
     "rollup-plugin-node-resolve": "^2.0.0",
     "rollup-plugin-uglify": "^1.0.1"
   },
   "dependencies": {
-    "ol": "^3.21.0-beta.17"
+    "ol": "^4.0.1-beta.2"
   }
 }
