@@ -1,11 +1,17 @@
-module.exports = {
-  entry: 'main.js',
-  targets: [
-    {dest: 'bundle.js', format: 'iife'}
+import cjs from 'rollup-plugin-commonjs';
+import node from 'rollup-plugin-node-resolve';
+import {terser} from 'rollup-plugin-terser';
+
+const production = !process.env.ROLLUP_WATCH;
+
+export default {
+  input: 'main.js',
+  output: [
+    {file: 'bundle.js', format: 'iife'}
   ],
   plugins: [
-    require('rollup-plugin-node-resolve')(),
-    require('rollup-plugin-commonjs')(),
-    require('rollup-plugin-uglify')()
+    node(),
+    cjs(),
+    production && terser()
   ]
 };
