@@ -4,7 +4,7 @@ This example demonstrates how the [`ol` package](https://www.npmjs.com/package/o
 
 Clone the project.
 
-    git clone git@gist.github.com:8beb328ea72b36446fc2198d008287de.git ol-rollup
+    git clone git@github.com:openlayers/ol-rollup.git
 
 Install the project dependencies.
 
