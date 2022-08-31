@@ -7,10 +7,10 @@ const production = !process.env.ROLLUP_WATCH;
 export default {
   input: 'main.js',
   output: [
-    {file: 'bundle.js', format: 'iife', sourcemap: true}
+    {file: 'bundle.js', format: 'iife', sourcemap: true, inlineDynamicImports: true}
   ],
   plugins: [
-    node(),
+    node({browser: true}),
     cjs(),
     production && terser()
   ],
