@@ -6,7 +6,7 @@ Clone the project.
 
     git clone git@github.com:openlayers/ol-rollup.git
 
-Install the project dependencies.
+Use Node.js 20 or newer, then install the project dependencies.
 
     cd ol-rollup
     npm install
